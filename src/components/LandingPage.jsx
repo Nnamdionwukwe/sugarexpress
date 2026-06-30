@@ -279,7 +279,6 @@ const LandingPage = () => {
         <div className={styles.container}>
           <a href="#" className={styles.navbarBrand}>
             <span className={styles.brandIcon}>🍛</span>
-            <img className={styles.brandLogo} src="/logo.jpg" />
             <span className={styles.brandName}>Sugar Express</span>
           </a>
 
@@ -602,6 +601,8 @@ const LandingPage = () => {
           <div className={styles.footerInner}>
             <div className={styles.footerBrand}>
               <span className={styles.brandIcon}>🍛</span>
+
+              <img className={styles.brandLogo} src="/logo.jpg" />
               <span>Sugar Express</span>
             </div>
             <div className={styles.footerCopy}>
