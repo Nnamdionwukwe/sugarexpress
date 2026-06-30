@@ -609,18 +609,22 @@ const LandingPage = () => {
             <div className={styles.footerCopy}>
               &copy; 2026 Sugar Express — Abuja's Favorite Meals
             </div>
-            <div className={styles.footerCopy}>Powered By GesTechCom</div>
+
             <div className={styles.footerSocials}>
-              <a href="#" aria-label="Facebook">
+              <a
+                href="https://www.facebook.com/share/17qyFuxzcM/?mibextid=wwXIfr"
+                aria-label="Facebook"
+              >
                 <FaFacebook />
               </a>
-              <a href="#" aria-label="Instagram">
+              <a
+                href="https://www.instagram.com/sugarexpressng?igsh=Y3o0cmtncWExMHNq&utm_source=qr"
+                aria-label="Instagram"
+              >
                 <FaInstagram />
               </a>
-              {/* <a href="#" aria-label="Twitter">
-                <FaTiktok />
-              </a> */}
             </div>
+            <div className={styles.footerCopy}>Powered By GesTechCom</div>
           </div>
         </div>
       </footer>
