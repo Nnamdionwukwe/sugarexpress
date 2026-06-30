@@ -603,7 +603,7 @@ const LandingPage = () => {
             <div className={styles.footerBrand}>
               <span className={styles.brandIcon}>🍛</span>
 
-              <img className={styles.brandLogo} src="/logo.jpg" />
+              <img className={styles.brandLogo} src="/sugar.PNG" />
               <span>Sugar Express</span>
             </div>
             <div className={styles.footerCopy}>
