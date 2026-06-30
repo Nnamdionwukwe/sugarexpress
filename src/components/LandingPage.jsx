@@ -12,13 +12,8 @@ import {
   FaTruck,
   FaLeaf,
   FaFire,
-  FaPepperHot,
   FaHamburger,
-  FaPizzaSlice,
-  FaFish,
-  FaDrumstick,
   FaGlassCheers,
-  FaCoffee,
   FaFacebook,
   FaInstagram,
   FaTwitter,
@@ -140,11 +135,7 @@ const comboData = [
     items: "White rice · Curry sauce · Chicken chunks",
     price: "₦4,500",
   },
-  {
-    name: "Pasta Combo",
-    items: "Smoked Penne Pasta · Coke",
-    price: "₦9,000",
-  },
+  { name: "Pasta Combo", items: "Smoked Penne Pasta · Coke", price: "₦9,000" },
 ];
 
 // ─── Office Lunch Packages ──────────────────────────────────
@@ -292,9 +283,7 @@ const LandingPage = () => {
           </a>
 
           <ul
-            className={`${styles.navbarLinks} ${
-              isNavOpen ? styles.navbarLinksOpen : ""
-            }`}
+            className={`${styles.navbarLinks} ${isNavOpen ? styles.navbarLinksOpen : ""}`}
           >
             <li>
               <a href="#menu" onClick={closeNav}>
@@ -313,9 +302,7 @@ const LandingPage = () => {
             </li>
             <li>
               <button
-                className={`${styles.themeToggle} ${
-                  theme === "light" ? styles.themeToggleLight : ""
-                }`}
+                className={`${styles.themeToggle} ${theme === "light" ? styles.themeToggleLight : ""}`}
                 onClick={toggleTheme}
                 aria-label="Toggle theme"
               >
@@ -498,7 +485,6 @@ const LandingPage = () => {
             ))}
           </div>
 
-          {/* Office Lunch Packages */}
           <div className={styles.officeSection}>
             <h3 className={styles.officeTitle}>Office Lunch Package</h3>
             <div className={styles.officeGrid}>
@@ -557,7 +543,6 @@ const LandingPage = () => {
               <div className={styles.vatNote}>* Prices are VAT exclusive.</div>
             </div>
             <div className={styles.deliveryMap}>
-              {/* Simple map placeholder */}
               <div className={styles.mapPlaceholder}>
                 <FaMapMarkerAlt className={styles.mapIcon} />
                 <p>Serving Abuja</p>
