@@ -72,17 +72,17 @@ const menuCategories = [
     items: [
       {
         name: "Spaghetti Fiesta",
-        price: "₦? ",
+        price: "₦11,000",
         desc: "Bell Peppers, Chunks - Beef/Chicken/Goat",
       },
       {
         name: "Smoked Penne Pasta",
-        price: "₦? ",
+        price: "₦9,000",
         desc: "Sausage, Chicken Chunks, Tomato/Cream",
       },
       {
         name: "Native Spaghetti",
-        price: "₦? ",
+        price: "₦8,000",
         desc: "Ponmo, Dried Fish, Smoked Panola",
       },
     ],
@@ -92,7 +92,7 @@ const menuCategories = [
     icon: <FaHamburger />,
     items: [
       { name: "Beef Wrap", price: "₦7,000", desc: "" },
-      { name: "Grilled Chicken Club Sandwich", price: "₦? ", desc: "" },
+      { name: "Grilled Chicken Club Sandwich", price: "₦5,000", desc: "" },
     ],
   },
   {
