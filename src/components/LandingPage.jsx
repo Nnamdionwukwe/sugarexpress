@@ -17,6 +17,7 @@ import {
   FaFacebook,
   FaInstagram,
   FaTwitter,
+  FaTiktok,
 } from "react-icons/fa";
 import { GiChickenOven, GiRiceCooker, GiNoodles, GiMeal } from "react-icons/gi";
 import styles from "./LandingPage.module.css";
@@ -608,6 +609,7 @@ const LandingPage = () => {
             <div className={styles.footerCopy}>
               &copy; 2026 Sugar Express — Abuja's Favorite Meals
             </div>
+            <div className={styles.footerCopy}>Powered By GesTechCom</div>
             <div className={styles.footerSocials}>
               <a href="#" aria-label="Facebook">
                 <FaFacebook />
@@ -615,9 +617,9 @@ const LandingPage = () => {
               <a href="#" aria-label="Instagram">
                 <FaInstagram />
               </a>
-              <a href="#" aria-label="Twitter">
-                <FaTwitter />
-              </a>
+              {/* <a href="#" aria-label="Twitter">
+                <FaTiktok />
+              </a> */}
             </div>
           </div>
         </div>
