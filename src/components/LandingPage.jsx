@@ -156,11 +156,11 @@ const deliveryAreas = [
   "Jabi",
   "Wuse 2",
   "Gwarimpa",
-  "Life Camp",
-  "Guezape",
+  "Lifecamp",
+  "Guzape",
   "Durimi",
   "Central Area",
-  "Ketempe",
+  "Katampe Extension",
 ];
 
 // ─── Main Component ──────────────────────────────────────────
