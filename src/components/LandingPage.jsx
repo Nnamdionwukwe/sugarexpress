@@ -607,7 +607,8 @@ const LandingPage = () => {
               <span>Sugar Express</span>
             </div>
             <div className={styles.footerCopy}>
-              &copy; 2026 Sugar Express — Abuja's Favorite Meals
+              &copy; {new Date().getFullYear()} Sugar Express — Abuja's Favorite
+              Meals
             </div>
 
             <div className={styles.footerSocials}>
@@ -624,7 +625,18 @@ const LandingPage = () => {
                 <FaInstagram />
               </a>
             </div>
-            <div className={styles.footerCopy}>Powered By GesTechCom</div>
+            <div className={styles.footerCopy2}>
+              powered by{" "}
+              <a
+                className={styles.footerLink}
+                href="https://www.gestechcom.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                GesTechCom Technologies
+              </a>
+            </div>
           </div>
         </div>
       </footer>
